@@ -17,5 +17,5 @@ int main(int argc, char* argv[]){
 	x = htonl(x);
 	y = htonl(y);
 
-	printf("%d(0x%x) +  %d(0x%x) = %d(0x%x)\n",x, x, y, y, x+y, x+y);
+	printf("%d(%#x) +  %d(%#x) = %d(%#x)\n",x, x, y, y, x+y, x+y);
 }
