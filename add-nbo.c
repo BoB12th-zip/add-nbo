@@ -18,4 +18,6 @@ int main(int argc, char* argv[]){
 	y = htonl(y);
 
 	printf("%d(%#x) +  %d(%#x) = %d(%#x)\n",x, x, y, y, x+y, x+y);
+
+	fclose(fp);
 }
